@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border: solid 2px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.screen {
+    height: 80px;
+    border: solid 1px black;
+    line-height: 80px;
+    padding-left: 10px;
+    font-size: 80px;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.btn, .btnss {
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 32px;
+}
+.btnss {
+    width: 200px;
+}
+.operations {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.ops, .opss{
+    width: 80px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.numbers {
+    width: 320px;
+    
+}
